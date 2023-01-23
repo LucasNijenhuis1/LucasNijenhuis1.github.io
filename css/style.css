@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap");
+
+* {
+  margin: 0;
+}
+
+header {
+  width: auto;
+  height: 100px;
+  font-weight: 800;
+  border-bottom: 4px solid black;
+  font-family: "JetBrains Mono", monospace;
+  font-size: xx-large;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: flex-end;
+}
+
+main {
+  height: 900px;
+  background-color: white;
+  overflow: hidden;
+}
+
+footer {
+  width: auto;
+  height: 250px;
+  background-color: #4f4f4f;
+  margin-top: -200px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: baseline;
+  align-content: center;
+}
+
+.turnedblock {
+  margin-top: 175px;
+  margin-left: -40px;
+  width: 150%;
+  height: 400px;
+  background-color: #d9d9d9;
+  transform: rotate(6deg);
+
+
+}
+
+.headbutton {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  background-color: black;
+  font-size: large;
+  border-radius: 25px;
+  height: 50px;
+  width: 20%;
+}
+
+.projbutton {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  background-color: black;
+  font-size: large;
+  border-radius: 25px;
+  height: 50px;
+  width: 20%;
+}
+
+.textBox {
+  margin-left: 100px;
+  height: 250px;
+  width: 750px;
+  transform: rotate(-6deg);
+  font-family: "JetBrains Mono", monospace;
+  color: black;
+  font-size: 1.5vw;
+}
+
+.flexButton {
+  width: 50%;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  align-items: center;
+  align-content: flex-end;
+}
+.kaas {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+#headertitle {
+  float: left;
+  margin-left: 25px;
+}
+
+footer p {
+  font-family: "JetBrains Mono", monospace;
+  color: white;
+  margin: 25px;
+  font-size: x-large;
+  font-weight: 800;
+}
+
+#maintext2 {
+    font-family: "JetBrains Mono", monospace;
+    color: black;
+    font-size: 3vw;
+    font-weight: 900;
+}
+
+#maintext {
+    font-family: "JetBrains Mono", monospace;
+    color: black;
+    font-size: 1.5vw;
+    font-weight: 200;
+}
+
